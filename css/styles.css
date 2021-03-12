@@ -46,8 +46,8 @@ img {
   height: auto;
 }
 .header {
-  padding-top: 24px;
-  padding-bottom: 25px;
+  /* padding-top: 24px;
+  padding-bottom: 25px; */
   border-bottom: 1px solid #ececec;
 }
 
@@ -302,10 +302,21 @@ img {
 }
 
 .icon-advantages {
-  /* width: 70px;
-  height: 70px; */
+  width: 70px;
+  height: 70px;
 }
-
+.icon-list {
+  display: flex;
+  background-repeat: no-repeat;
+  background-color: #f5f4fa;
+  border-radius: 4px;
+  margin-bottom: 30px;
+  padding-bottom: 25px;
+  padding-top: 25px;
+  padding-left: 100px;
+  padding-right: 100px;
+  justify-content: center;
+}
 /*======= END ADVANTAGES===== */
 
 /* ========ABOUT======== */
