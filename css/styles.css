@@ -307,6 +307,7 @@ img {
 }
 .icon-list {
   display: flex;
+  justify-content: center;
   background-repeat: no-repeat;
   background-color: #f5f4fa;
   border-radius: 4px;
@@ -315,7 +316,6 @@ img {
   padding-top: 25px;
   padding-left: 100px;
   padding-right: 100px;
-  justify-content: center;
 }
 /*======= END ADVANTAGES===== */
 
