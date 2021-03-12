@@ -132,6 +132,18 @@ img {
   margin-left: auto;
 }
 
+.icon-contact {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 10px;
+  width: 16px;
+  height: 12px;
+}
+.mail-contact:hover .icon-contact,
+.mail-contact:focus .icon-contact {
+  fill: var(--accent-color);
+}
 .mail-contact:not(:last-child) {
   margin-right: 50px;
 }
