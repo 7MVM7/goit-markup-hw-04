@@ -132,16 +132,13 @@ img {
   margin-left: auto;
 }
 
-.icon-contact {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+.icon-mail {
   margin-right: 10px;
   width: 16px;
   height: 12px;
 }
-.mail-contact:hover .icon-contact,
-.mail-contact:focus .icon-contact {
+.mail-contact:hover .icon-mail,
+.mail-contact:focus .icon-mail {
   fill: var(--accent-color);
 }
 .mail-contact:not(:last-child) {
@@ -165,6 +162,9 @@ img {
 }
 
 .mail-link-head {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   padding-top: 32px;
   padding-bottom: 32px;
   font-family: var(--main-font);
@@ -180,6 +180,9 @@ img {
   color: var(--accent-color);
 }
 .tel-link-head {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   padding-top: 32px;
   padding-bottom: 32px;
   font-family: var(--main-font);
@@ -189,6 +192,17 @@ img {
   letter-spacing: 0.02em;
 
   color: var(--gray-color);
+}
+
+.icon-tel {
+  width: 10px;
+  height: 16px;
+  margin-right: 10px;
+}
+
+.mail-contact:hover .icon-tel,
+.mail-contact:focus .icon-tel {
+  fill: var(--accent-color);
 }
 .tel-link-head:hover,
 .tel-link-head:focus {
@@ -203,6 +217,14 @@ img {
   padding-bottom: 200px;
   text-align: center;
   background: #2f303a;
+  background-color: var(--gray-color);
+  background-image: linear-gradient(
+      rgba(47, 48, 58, 0.4),
+      rgba(47, 48, 58, 0.4)
+    ),
+    url("../images/hero/Img.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 .hero-title {
   font-weight: 900;
@@ -277,6 +299,11 @@ img {
 .features {
   flex-basis: calc(100% / 4 - 30px);
   margin-left: 30px;
+}
+
+.icon-advantages {
+  /* width: 70px;
+  height: 70px; */
 }
 
 /*======= END ADVANTAGES===== */
