@@ -96,6 +96,11 @@ img {
   color: var(--white-color);
 }
 
+.icon-social {
+  width: 20px;
+  height: 20px;
+}
+
 /* ============END COMPONENTS==============*/
 
 /* ========================STYLES INDEX.HTML========================= */
@@ -305,7 +310,8 @@ img {
   width: 70px;
   height: 70px;
 }
-.icon-list {
+
+. .icon-list {
   display: flex;
   justify-content: center;
   background-repeat: no-repeat;
@@ -375,12 +381,43 @@ img {
   line-height: 1.18;
   color: var(--secondary-color);
 }
+
+.icon-social-list {
+  display: flex;
+  align-items: center;
+  /* justify-content: space-between; */
+}
+
+.icon-social-item:not(:last-child) {
+  margin-right: 10px;
+}
+
+.icon-social-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  fill: #afb1b8;
+}
+.icon-social-link:hover,
+.icon-social-link:focus {
+  background-color: var(--accent-color);
+}
+
+.icon-social-link:hover .icon-social,
+.icon-social-link:focus .icon-social {
+  fill: var(--white-color);
+}
+
 .position {
   font-family: var(--main-font);
   font-weight: 400;
   font-size: 16px;
   line-height: 1.18;
   color: var(--gray-color);
+  margin-bottom: 16px;
 }
 
 /* ========= END OUR TEAM========= */
