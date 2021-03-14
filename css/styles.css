@@ -513,6 +513,38 @@ img {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--white-color);
+  margin-bottom: 20px;
+}
+
+.list-join {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.link-social-join {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+.link-social-join:hover .icon-social,
+.link-social-join:focus .icon-social {
+  fill: var(--white-color);
+}
+.link-social-join:hover,
+.link-social-join:focus {
+  background-color: var(--accent-color);
+}
+
+.icon-social {
+  fill: var(--white-color);
+}
+.social-join-link-item:not(:last-child) {
+  margin-right: 10px;
 }
 
 /* ==========END CONTACTS==========*/
