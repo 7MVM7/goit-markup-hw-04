@@ -314,8 +314,9 @@ img {
 }
 
 .icon-list {
-  display: flex;
-  justify-content: center;
+  width: 270px;
+  height: 120px;
+
   background-repeat: no-repeat;
   background-color: #f5f4fa;
   border-radius: 4px;
@@ -419,7 +420,7 @@ img {
 
 /* ================REGULAR-CLIENTS=============== */
 
-.clients {
+.regular-customers {
   padding-top: 94px;
 }
 
@@ -532,6 +533,7 @@ img {
   display: flex;
   align-items: center;
   justify-content: center;
+
   width: 44px;
   height: 44px;
   border-radius: 50%;
@@ -552,6 +554,12 @@ img {
 
 .social-join-link-item:not(:last-child) {
   margin-right: 10px;
+}
+
+.join {
+  margin-top: 20px;
+  margin-left: 70px;
+  padding-bottom: 100px;
 }
 
 /* ==========END CONTACTS==========*/
