@@ -456,7 +456,7 @@ img {
   fill: #afb1b8;
 }
 .customers-item:not(:last-child) {
-  margin-left: 30px;
+  margin-right: 30px;
 }
 
 /* ================END-REGULAR-CLIENTS=============== */
