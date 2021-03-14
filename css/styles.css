@@ -528,10 +528,6 @@ img {
   margin-bottom: 20px;
 }
 
-.list-join {
-  /* 
-  justify-content: center; */
-}
 .link-social-join {
   display: flex;
   align-items: center;
@@ -542,6 +538,9 @@ img {
   background-color: rgba(255, 255, 255, 0.1);
 }
 
+.social-join-link-item .link-social-join {
+  fill: var(--white-color);
+}
 .link-social-join:hover .icon-social,
 .link-social-join:focus .icon-social {
   fill: var(--white-color);
