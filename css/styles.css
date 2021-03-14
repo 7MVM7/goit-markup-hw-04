@@ -529,9 +529,8 @@ img {
 }
 
 .list-join {
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  /* 
+  justify-content: center; */
 }
 .link-social-join {
   display: flex;
@@ -552,9 +551,6 @@ img {
   background-color: var(--accent-color);
 }
 
-.icon-social {
-  fill: var(--white-color);
-}
 .social-join-link-item:not(:last-child) {
   margin-right: 10px;
 }
